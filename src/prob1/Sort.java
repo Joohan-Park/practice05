@@ -12,11 +12,18 @@ public class Sort {
 			System.out.print( array[ i ] + " " );
 		}
 		
+		for(int i=0; i<(count-1); i++){
+			for(int j=0; j<(count-i-1); j++){
+				if(array[j]<array[j+1]){
+					temp=array[j+1];
+					array[j+1]=array[j];
+					array[j]=temp;
+				}
+			}
+		}
 		//
 		// 선택 정렬 알고리즘이 적용된 코드를 여기에 작성합니다.
 		//
-
-
 		
 		System.out.println( "\nAfter Sort." );
 		
