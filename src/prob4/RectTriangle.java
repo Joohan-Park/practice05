@@ -8,7 +8,7 @@ public class RectTriangle extends Shape {
 	public RectTriangle(double width, double height){
 		this.height=height;
 		this.width=width;
-	}
+}
 	
 	public double getWidth() {
 		return width;
